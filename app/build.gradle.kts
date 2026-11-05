@@ -8,12 +8,12 @@ plugins {
 }
 
 android {
-    namespace = "com.github.avbox.osc"
+    namespace = "com.github.ccbox.osc"
     compileSdk = libs.versions.compileSdk.get().toInt()
     ndkVersion = libs.versions.ndk.get()
 
     defaultConfig {
-        applicationId = "com.github.avbox.osc"
+        applicationId = "com.github.ccbox.osc"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 34
